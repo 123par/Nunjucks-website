@@ -1,0 +1,54 @@
+{% extends "base.njk" %}
+
+{% block title %}Vistara — Home{% endblock %}
+
+{% block content %}
+<!-- Hero -->
+<header class="hero">
+    <div class="container text-center">
+        <div class="glass-card">
+            <h1 class="display-4 fw-bold mb-3">Design. Build. Grow.</h1>
+            <p class="lead mb-4">
+                Vistara crafts clean, responsive web experiences.
+            </p>
+            <a href="about.html" class="btn btn-primary btn-lg me-2">Learn More</a>
+            <a href="contact.html" class="btn btn-outline-light btn-lg">Get in Touch</a>
+        </div>
+    </div>
+</header>
+
+<!-- Features -->
+<section class="py-5">
+    <div class="container features-bg">
+        <div class="row text-center mb-4">
+            <h2 class="fw-bold" style="animation: fadeInDown 1s;">Why Choose Vistara?</h2>
+            <p class="text-muted" style="animation: fadeInUp 1.2s;">We blend design and technology to help your
+                ideas take flight.</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="feature-card p-4 h-100">
+                    <div class="feature-icon"><i class="bi bi-lightning-charge-fill"></i></div>
+                    <h5 class="fw-bold">Fast & Lightweight</h5>
+                    <p class="text-muted">Built entirely with Bootstrap 5, your site loads quickly and performs
+                        flawlessly.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card p-4 h-100">
+                    <div class="feature-icon"><i class="bi bi-palette-fill"></i></div>
+                    <h5 class="fw-bold">Clean Design</h5>
+                    <p class="text-muted">We focus on clarity and aesthetics so your message shines through.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card p-4 h-100">
+                    <div class="feature-icon"><i class="bi bi-phone-fill"></i></div>
+                    <h5 class="fw-bold">Responsive Layouts</h5>
+                    <p class="text-muted">Looks great on phones, tablets, and desktops without extra coding.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

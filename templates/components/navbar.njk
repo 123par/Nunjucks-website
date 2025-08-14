@@ -1,0 +1,22 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand fw-semibold" href="index.html">Vistara</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="mainNav" class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link {% if page == 'index' %}active{% endif %}" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {% if page == 'about' %}active{% endif %}" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {% if page == 'contact' %}active{% endif %}" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
