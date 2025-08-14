@@ -1,0 +1,20 @@
+{
+  "name": "vistara-website",
+  "version": "1.0.0",
+  "description": "Modern responsive website using Bootstrap 5 and Nunjucks",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js",
+    "serve": "npx http-server dist -p 3000 -o",
+    "dev": "npm run build && npm run serve",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "fs-extra": "^11.3.1",
+    "nunjucks": "^3.2.4",
+    "nunjucks-cli": "^1.0.0"
+  },
+  "keywords": ["bootstrap", "nunjucks", "responsive", "static-site"],
+  "author": "",
+  "license": "ISC"
+}
